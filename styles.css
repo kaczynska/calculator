@@ -18,17 +18,69 @@ p {
 }
 .container {
 	width: 300px;
-	height: 300px;
-	background: grey;
+	height: 360px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, -50%) }
 }
-.calc {
-	padding-top: 50px;
-	width: 100px;
-	height: 100px;
-	background: red;
+.container-wrapper {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
 }
+.calc-btn {
+	background-color: silver;
+	color: black;
+	width: 25px;
+	height: 28px;
+	border: 1px solid gray;
+	text-align: center;
+	cursor: pointer;
+	font-size: 24px;
+	font-weight: 300;
+}
+.calc-btn:hover {
+	background-color: orange;
+}
+.row {
+	display: table;
+	table-layout: fixed;
+	width: 200px;
+}
+.column {
+	display: table-cell;
+}
+#calc-zero {
+	width: 52.66666667px;
+	border-radius: 0 0 0 7px;
+}
+#calc-clear {
+	width: 52.66666667px;
+}
+#calc-display-val {
+	height: 60px;
+	color: white;
+	text-align: right;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-top: 1px solid gray;
+	font-size: 48px;
+	background-color: #383838;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 12px;
+	border-radius: 7px 7px 0 0;
+}
+.calc-btn-operator {
+	background-color: orange;
+	color: white;
+}
+#calc-equals {
+	border-radius: 0 0 7px 0;
+}
+#calc-parent {
+	margin-left: calc(50% - 100px)
+}
+
