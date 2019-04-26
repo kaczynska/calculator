@@ -3,6 +3,13 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align: center;
 	margin: 0;
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
 h1 {
 	font-size: 28px;
@@ -18,7 +25,7 @@ p {
 }
 .container {
 	width: 300px;
-	height: 360px;
+	height: 430px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -34,12 +41,13 @@ p {
 	background-color: silver;
 	color: black;
 	width: 25px;
-	height: 28px;
+	height: 45px;
 	border: 1px solid gray;
 	text-align: center;
 	cursor: pointer;
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: 300;
+	vertical-align: middle;
 }
 .calc-btn:hover {
 	background-color: orange;
