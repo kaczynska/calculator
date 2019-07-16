@@ -6,8 +6,8 @@ Online calculator that allows multiple operations. Created with HTML, CSS and Ja
 * CSS
 * Java Script 
 
-## Status
-Project is in progress.
+## Live preview
+https://kaczynska.github.io/portfolio/calculator/
 
-## Contact
-Created by [@kaczynska](https://github.com/kaczynska/) - feel free to contact me!
+## Screenshot preview
+![calc](https://user-images.githubusercontent.com/15987993/61313713-51a66500-a7fb-11e9-8795-eafe8eec2e5c.jpg)
